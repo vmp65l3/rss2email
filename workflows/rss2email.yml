@@ -22,3 +22,4 @@ jobs:
           from: 13535346717@163.com # <user@example.com>
           # Optional content type (defaults to text/plain):
           content_type: text/html
+

@@ -10,7 +10,7 @@ jobs:
       - name: Send mail
         uses: dawidd6/action-send-mail@v2
         with:
-          server_address: smtp.gmail.com
+          server_address: smtp.163.com
           server_port: 465
           username: ${{secrets.MAIL_USERNAME}}
           password: ${{secrets.MAIL_PASSWORD}}
@@ -19,6 +19,6 @@ jobs:
           body: ${{ on.rss.outputs.content }}
           # Read file contents as body:
           to: 626522796@qq.com
-          from: cid5798@gmail.com # <user@example.com>
+          from: 13535346717@163.com # <user@example.com>
           # Optional content type (defaults to text/plain):
           content_type: text/html

@@ -1,7 +1,7 @@
 name: Send email new RSS Feed items	
 on:
   rss:
-    url: https://feedx.fun/rss/zhihudaily.xml
+    url: https://rsshub.app/zhihu/hotlist
 jobs:
   email:
     name: Post a email

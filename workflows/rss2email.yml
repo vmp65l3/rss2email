@@ -11,7 +11,7 @@ jobs:
         uses: dawidd6/action-send-mail@v2
         with:
           server_address: smtp.163.com
-          server_port: 465
+#           server_port: 465
           username: ${{secrets.MAIL_USERNAME}}
           password: ${{secrets.MAIL_PASSWORD}}
           subject: ${{ on.rss.outputs.title }}

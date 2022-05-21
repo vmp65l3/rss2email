@@ -1,7 +1,7 @@
 name: Send email new RSS Feed items	
 on:
   rss:
-    url: https://rsshub.app/zhihu/hotlist
+    url: https://rsshub.app/dgtle
 jobs:
   email:
     name: Post a email
